@@ -43,7 +43,19 @@
 <style>
 /* 缩小publication部分的图片 */
 .paper-box .paper-box-image img {
-    max-width: 160px; /* 将图片最大宽度从400px减少到180px */
+    max-width: 160px; /* 将图片最大宽度从400px减少到160px */
+}
+
+/* 调整布局比例，让图片占据更小的空间 */
+@media (min-width: 48em) {
+    .paper-box .paper-box-image {
+        max-width: 25%; /* 减少图片区域占比，从40%减少到25% */
+    }
+    
+    .paper-box .paper-box-text {
+        max-width: 75%; /* 增加文字区域占比，从60%增加到75% */
+        padding-left: 1.5em; /* 调整左边距 */
+    }
 }
 </style>
 
