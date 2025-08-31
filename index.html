@@ -51,19 +51,19 @@
 /* 调整布局比例，让图片占据更小的空间 */
 @media (min-width: 48em) {
     .paper-box .paper-box-image {
-        max-width: 35%; /* 增加图片区域占比 */
+        max-width: 30%; /* 减少图片区域占比 */
         min-width: 250px; /* 设置最小宽度 */
     }
     
     .paper-box .paper-box-text {
-        max-width: 65%; /* 调整文字区域占比 */
-        padding-left: 0.5em; /* 大幅减少左边距，让文字更靠近图片 */
+        max-width: 70%; /* 增加文字区域占比 */
+        padding-left: 0.2em; /* 进一步减少左边距，让文字更靠近图片 */
     }
 }
 
 /* 减少paper-box的整体padding，让内容更紧凑 */
 .paper-box {
-    padding: 1em 0 1em 0; /* 减少上下padding */
+    padding: 0.5em 0 0.5em 0; /* 进一步减少上下padding */
 }
 </style>
 
