@@ -67,9 +67,7 @@ img { display: block; max-width: 100%; }
   z-index: 1;
   width: 152px;
   height: auto;
-  aspect-ratio: 4/5;
-  object-fit: cover;
-  object-position: center top;
+  object-fit: contain;
   border-radius: 8px;
   background: #e7ebf0;
 }
@@ -149,6 +147,7 @@ h2 { margin: 4px 0 0; font: 700 clamp(28px, 4vw, 39px)/1.12 var(--serif); letter
 .venue { flex: 0 0 auto; padding: 4px 8px; border-radius: 6px; background: var(--accent-wash); color: var(--accent-strong); font-size: 11px; font-weight: 760; letter-spacing: .03em; }
 .authors { margin: 8px 0 0; color: var(--muted); font-size: 12.5px; line-height: 1.55; }
 .authors b { color: var(--ink); font-weight: 720; }
+.paper-desc { margin: 10px 0 0; color: #455267; font-size: 13px; line-height: 1.65; }
 .paper-links { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 12px; }
 .paper-links a { font-size: 12.5px; font-weight: 680; }
 .paper-links a::after { content: " ↗"; font-size: 10px; }
