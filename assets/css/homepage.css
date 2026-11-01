@@ -149,9 +149,12 @@ h2 { margin: 4px 0 0; font: 700 clamp(28px, 4vw, 39px)/1.12 var(--serif); letter
 .authors { margin: 8px 0 0; color: var(--muted); font-size: 12.5px; line-height: 1.55; }
 .authors b { color: var(--ink); font-weight: 720; }
 .paper-desc { margin: 10px 0 0; color: #455267; font-size: 13px; line-height: 1.65; }
-.paper-links { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: 12px; }
+.paper-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; margin-top: 12px; }
 .paper-links a { font-size: 12.5px; font-weight: 680; }
 .paper-links a::after { content: " ↗"; font-size: 10px; }
+.paper-links .github-stars { display: inline-flex; align-items: center; line-height: 1; }
+.paper-links .github-stars::after { content: none; }
+.github-stars img { width: auto; height: 20px; max-width: 150px; border-radius: 3px; }
 .equal-note { margin: -14px 0 18px; color: var(--soft); font-size: 13.5px; line-height: 1.55; }
 
 .timeline { border-left: 1px solid #cfd7e1; margin-left: 8px; }
@@ -218,6 +221,7 @@ h1 { overflow-wrap: anywhere; }
 }
 @media (max-width: 520px) {
   .hero { padding: 16px 0 24px; }
+  .paper-links { column-gap: 8px; }
   .nav-links { gap: 8px; flex-wrap: wrap; }
   .nav-links a { font-size: 12px; }
   .paper-body { padding: 0; }

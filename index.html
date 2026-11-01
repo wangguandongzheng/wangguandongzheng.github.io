@@ -16,7 +16,7 @@
   <link rel="canonical" href="https://wangguandongzheng.github.io/">
   <link rel="icon" type="image/png" href="images/portrait.png">
   <link rel="apple-touch-icon" href="images/portrait.png">
-  <link rel="stylesheet" href="assets/css/homepage.css?v=20261027-3">
+  <link rel="stylesheet" href="assets/css/homepage.css?v=20261101-1">
   <meta name="citation_author" content="Wangguandong Zheng">
   <meta name="citation_author_institution" content="ByteDance">
   <meta name="citation_title" content="Wangguandong Zheng - Personal Academic Homepage">
@@ -122,6 +122,47 @@
       <div class="papers">
         <article class="paper">
           <div class="paper-media">
+            <img src="images/motionmem/teaser.png" width="185" height="91" alt="MotionMem teaser showing consistent dynamic subjects leaving and re-entering the camera view" loading="lazy" decoding="async">
+          </div>
+          <div class="paper-body">
+            <div class="paper-topline">
+              <h3><a href="https://bestzzhang.github.io/MotionMem/" target="_blank" rel="noopener noreferrer">MotionMem: Future Trajectory Forecasting as Dynamic Memory for Video Generation</a></h3>
+              <span class="venue">Under review</span>
+            </div>
+            <p class="authors">Zhiyuan Zhang*, <strong>Wangguandong Zheng*</strong>, Yansong Qu, Quanjian Song, Zesong Yang, Yuhao Liu, Jing Liao</p>
+            <p class="paper-desc">MotionMem couples future trajectory prediction with memory retrieval in a plan–retrieve–generate framework for long-horizon world generation. Single-step motion forecasting guides the retrieval and alignment of historical object appearance, preserving scene and dynamic-object consistency during causal, few-step streaming generation.</p>
+            <div class="paper-links"><a href="https://bestzzhang.github.io/MotionMem/" target="_blank" rel="noopener noreferrer">Homepage</a></div>
+          </div>
+        </article>
+        <article class="paper">
+          <div class="paper-media">
+            <img src="images/scaleworld/teaser.png" width="185" height="68" alt="ScaleWorld teaser showing a shared backbone for low-resolution world prediction and high-resolution refinement" loading="lazy" decoding="async">
+          </div>
+          <div class="paper-body">
+            <div class="paper-topline">
+              <h3>ScaleWorld: High-Resolution World Generation through Shared Prediction and Refinement</h3>
+              <span class="venue">Under review</span>
+            </div>
+            <p class="authors">Yansong Qu*, <strong>Wangguandong Zheng*</strong>, Quanjian Song, Zhiyuan Zhang, Xiao Cao</p>
+            <p class="paper-desc">ScaleWorld uses one shared backbone for four-step camera-controlled world prediction and one-step high-resolution refinement. Separate causal histories reduce context-storage costs, while task-asymmetric on-policy distillation consolidates both capabilities into a single streaming model that refines its own predictions.</p>
+          </div>
+        </article>
+        <article class="paper">
+          <div class="paper-media">
+            <img src="images/geometry-as-address/teaser.png" width="185" height="75" alt="GEAR teaser showing camera-controlled video generation with consistent scene revisits" loading="lazy" decoding="async">
+          </div>
+          <div class="paper-body">
+            <div class="paper-topline">
+              <h3><a href="https://arxiv.org/abs/2609.34722" target="_blank" rel="noopener noreferrer">Geometry as Address: Routing Attention to Visual Memory for Long-Horizon Camera-Controlled Video Generation</a></h3>
+              <span class="venue">arXiv 2026</span>
+            </div>
+            <p class="authors">Zesong Yang, Weikai Chen, Liyuan Cui, Lutao Jiang, Runze Zhang, Yingda Yin, Xiaoyang Huang, Kai Yan, Keyang Luo, <strong>Wangguandong Zheng</strong>, Xin Wang, Hujun Bao, Zhaopeng Cui</p>
+            <p class="paper-desc">GEAR uses geometry to route each target token to relevant historical visual memory for long-horizon camera-controlled video generation. Geometric Correspondence Attention retrieves matched features while an Invisible Octree filters occluded matches, enabling minute-long generation with consistent scene revisits without relying on globally fused 3D geometry.</p>
+            <div class="paper-links"><a href="https://zju3dv.github.io/geometry-as-address/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2609.34722" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/zju3dv/geometry-as-address" target="_blank" rel="noopener noreferrer">Code</a><a class="github-stars" href="https://github.com/zju3dv/geometry-as-address/stargazers" target="_blank" rel="noopener noreferrer" aria-label="View GitHub stars for zju3dv/geometry-as-address"><img src="https://img.shields.io/github/stars/zju3dv/geometry-as-address?style=social" alt="GitHub stars for zju3dv/geometry-as-address" height="20" loading="lazy" decoding="async"></a></div>
+          </div>
+        </article>
+        <article class="paper">
+          <div class="paper-media">
             <img src="images/DA2/DA2.png" width="185" height="136" alt="DA2: Depth Anything in Any Direction project preview" loading="lazy" decoding="async">
           </div>
           <div class="paper-body">
@@ -131,7 +172,7 @@
             </div>
             <p class="authors">Haodong Li, <strong>Wangguandong Zheng</strong>, Jing He, Yuhao Liu, Xin Lin, Xin Yang, Ying-Cong Chen, Chunchao Guo</p>
             <p class="paper-desc">DA<sup>2</sup> estimates dense depth directly from a single 360° panorama, with strong zero-shot generalization across scenes. It combines large-scale panoramic training data with SphereViT, a transformer that uses spherical coordinates to account for panoramic distortion and preserve geometric consistency without splitting the image into perspective views.</p>
-            <div class="paper-links"><a href="https://depth-any-in-any-dir.github.io/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2509.26618" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/EnVision-Research/DA-2" target="_blank" rel="noopener noreferrer">Code</a></div>
+            <div class="paper-links"><a href="https://depth-any-in-any-dir.github.io/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2509.26618" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/EnVision-Research/DA-2" target="_blank" rel="noopener noreferrer">Code</a><a class="github-stars" href="https://github.com/EnVision-Research/DA-2/stargazers" target="_blank" rel="noopener noreferrer" aria-label="View GitHub stars for EnVision-Research/DA-2"><img src="https://img.shields.io/github/stars/EnVision-Research/DA-2?style=social" alt="GitHub stars for EnVision-Research/DA-2" height="20" loading="lazy" decoding="async"></a></div>
           </div>
         </article>
         <article class="paper">
@@ -145,7 +186,7 @@
             </div>
             <p class="authors">Tianyu Huang*, <strong>Wangguandong Zheng*</strong>, Tengfei Wang, Yuhao Liu, Zhenwei Wang, Junta Wu, Jie Jiang, Hui Li, Rynson W.H. Lau, Wangmeng Zuo, Chunchao Guo</p>
             <p class="paper-desc">Voyager turns a single image and a user-defined camera path into an explorable 3D scene by jointly generating RGB and depth videos. A persistent world cache and autoregressive scene extension preserve geometric consistency during long-range exploration, without requiring a separate 3D reconstruction pipeline at inference time.</p>
-            <div class="paper-links"><a href="https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2506.04225" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager" target="_blank" rel="noopener noreferrer">Code</a></div>
+            <div class="paper-links"><a href="https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2506.04225" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager" target="_blank" rel="noopener noreferrer">Code</a><a class="github-stars" href="https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager/stargazers" target="_blank" rel="noopener noreferrer" aria-label="View GitHub stars for Tencent-Hunyuan/HunyuanWorld-Voyager"><img src="https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanWorld-Voyager?style=social" alt="GitHub stars for Tencent-Hunyuan/HunyuanWorld-Voyager" height="20" loading="lazy" decoding="async"></a></div>
           </div>
         </article>
         <article class="paper">
@@ -159,7 +200,7 @@
             </div>
             <p class="authors">Wenyue Chen, Peng Li, <strong>Wangguandong Zheng</strong>, Chengfeng Zhao, Mengfei Li, Yaolong Zhu, Zhiyang Dou, Ronggang Wang, Yuan Liu</p>
             <p class="paper-desc">SyncHuman combines 2D multiview and native 3D generative models to reconstruct clothed human meshes from a single image, including challenging poses. Pixel-aligned synchronization attention keeps the generated views and 3D shapes geometrically aligned, while feature injection transfers fine image details into the final textured mesh.</p>
-            <div class="paper-links"><a href="https://xishuxishu.github.io/SyncHuman.github.io/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/pdf/2510.07723" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/IGL-HKUST/SyncHuman" target="_blank" rel="noopener noreferrer">Code</a></div>
+            <div class="paper-links"><a href="https://xishuxishu.github.io/SyncHuman.github.io/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/pdf/2510.07723" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/IGL-HKUST/SyncHuman" target="_blank" rel="noopener noreferrer">Code</a><a class="github-stars" href="https://github.com/IGL-HKUST/SyncHuman/stargazers" target="_blank" rel="noopener noreferrer" aria-label="View GitHub stars for IGL-HKUST/SyncHuman"><img src="https://img.shields.io/github/stars/IGL-HKUST/SyncHuman?style=social" alt="GitHub stars for IGL-HKUST/SyncHuman" height="20" loading="lazy" decoding="async"></a></div>
           </div>
         </article>
         <article class="paper">
@@ -173,7 +214,7 @@
             </div>
             <p class="authors">Peng Li, <strong>Wangguandong Zheng</strong>, Yuan Liu, Tao Yu, Yangguang Li, Xingqun Qi, Mengfei Li, Xiaowei Chi, Siyu Xia, Wei Xue, Wenhan Luo, Qifeng Liu, Yike Guo</p>
             <p class="paper-desc">PSHuman reconstructs a detailed, textured human mesh from a single image. Its SMPL-X-conditioned cross-scale multiview diffusion jointly models the full body and local facial details to preserve identity, while explicit mesh carving and remeshing recover geometry and appearance from the generated color and normal maps.</p>
-            <div class="paper-links"><a href="https://penghtyx.github.io/PSHuman/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2409.10141" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/pengHTYX/PSHuman" target="_blank" rel="noopener noreferrer">Code</a></div>
+            <div class="paper-links"><a href="https://penghtyx.github.io/PSHuman/" target="_blank" rel="noopener noreferrer">Homepage</a><a href="https://arxiv.org/abs/2409.10141" target="_blank" rel="noopener noreferrer">Paper</a><a href="https://github.com/pengHTYX/PSHuman" target="_blank" rel="noopener noreferrer">Code</a><a class="github-stars" href="https://github.com/pengHTYX/PSHuman/stargazers" target="_blank" rel="noopener noreferrer" aria-label="View GitHub stars for pengHTYX/PSHuman"><img src="https://img.shields.io/github/stars/pengHTYX/PSHuman?style=social" alt="GitHub stars for pengHTYX/PSHuman" height="20" loading="lazy" decoding="async"></a></div>
           </div>
         </article>
         <article class="paper">
